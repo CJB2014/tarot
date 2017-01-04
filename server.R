@@ -43,6 +43,7 @@ if(input$nbP == 5 ){
                joueur3 <- new_jeu[sample_card1$group ==3]
                joueur4 <- new_jeu[sample_card1$group ==4]
                joueur5 <- new_jeu[sample_card1$group ==5]
+               output$jeu <- renderTable(joueur1)
                }
                )
   

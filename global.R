@@ -3,7 +3,7 @@ setwd('//wdmpsvr01/RedirectedFolders/clemence.burnichon/My Documents/code_repo/t
 
 library(shiny)
 library(shinyjs)
-library(caret)
+
 
 card <- c(1:10, 'v','c','d','r')
 atout <- c(1:21,'e')
