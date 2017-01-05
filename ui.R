@@ -13,7 +13,8 @@ shinyUI(fluidPage(
                           dashboardHeader(disable = T)
                           ,dashboardSidebar(disable = T)
                           ,dashboardBody( box(title = 'bet', solidHeader = T , width = 12, height = '100px' , background = 'black'
-                                              ,radioButtons(inputId = 'betvalue', label = 'prendre ou pas ? ', choices = c('prend','pass'), selected = 'pass', inline = T, width = '300px'))
+                                              ,radioButtons(inputId = 'betvalue', label = 'prendre ou pas ? ', choices = c('prend','pass'), selected = 'pass', inline = T, width = '300px')
+                                              )
                                           ,box(title = 'Game', width = 2, height = '1000px', background = 'maroon'
                                                ,tableOutput(outputId = 'joueur1'))
                                           ,box(title = 'game_card', width = 10, height = '1000px', background = 'green'))

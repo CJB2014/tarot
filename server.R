@@ -5,7 +5,7 @@ shinyServer(function(input, output, session){
   # choice of number of player & exceptions & distribution
   #----------------------------------------------------------
   
-  ## chien 
+  ## distribution
   observeEvent(input$dist, {
     new_jeu <- jeu[-chien6,3]
     sample_card1 <- as.data.frame(sample(new_jeu), stringsAsFactors = F)
@@ -21,3 +21,7 @@ shinyServer(function(input, output, session){
     
   
 })
+
+
+### actionButton("sug1",icon=imageOutput("sug1",width="100px",height="100px"),label="First") 
+# clickable image 
