@@ -3,6 +3,7 @@ setwd('//wdmpsvr01/RedirectedFolders/clemence.burnichon/My Documents/code_repo/t
 
 library(shiny)
 library(shinyjs)
+library(shinydashboard)
 
 
 card <- c(1:10, 'v','c','d','r')
@@ -21,13 +22,13 @@ joueur1 <- data.frame()
 joueur2 <- data.frame()
 joueur3 <- data.frame()
 joueur4 <- data.frame()
-joueur5 <- data.frame()
+#joueur5 <- data.frame()
 
 pli1 <- data.frame()
 pli2 <- data.frame()
 pli3 <- data.frame()
 pli4 <- data.frame()
-pli5 <- data.frame()
+#pli5 <- data.frame()
 
-chien3 <- sample(1:length(jeu$jeu),3)
+#chien3 <- sample(1:length(jeu$jeu),3)
 chien6 <- sample(1:length(jeu$jeu),6) 
